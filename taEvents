@@ -1,0 +1,4 @@
+//Run in browser console to identify _trackAnalytics events
+var _trackAnalytics = function(obj){
+   alert(JSON.stringify(obj, null, 4));
+};
